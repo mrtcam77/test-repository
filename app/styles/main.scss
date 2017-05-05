@@ -1,8 +1,14 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+// Override Bootstrap Variables
+@import "variables";
+
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
+// Add additional stylesheets below
+@import "content";
 
 .browsehappy {
   margin: 0.2em 0;
